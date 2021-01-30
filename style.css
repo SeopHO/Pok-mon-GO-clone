@@ -6,18 +6,19 @@
 
 body
 {
-    height:100vh;
+    height:115vh;
     background: url(https://pokemongolive.com/img/global/bg.jpg) no-repeat center fixed;
     background-size: cover;
     display: flex;
     flex-direction: column;
     /* min-height: 100vh; */
     font-family: "Lato",sans-serif;
+    overflow-x: hidden;
 }
 
 main
 {
-    height:80%;
+    height:70%;
     /* background-color: grey; */
     margin:0 auto;
     width:100vw;
@@ -44,7 +45,7 @@ main
     padding:25px 0;
 }
 
-ul li
+.menu-bar ul li
 {
     display: inline;
     margin:10px;
@@ -53,7 +54,7 @@ ul li
     color:#44696C;
 }
 
-ul li a
+.menu-bar ul li a
 {
    text-decoration: none;
 }
@@ -101,7 +102,6 @@ ul li a:visited
 {
     width: 57.5%;
     height:7%;
-
 }
 
 .trailer-container .btn
@@ -111,7 +111,6 @@ ul li a:visited
     height:100%;
     border-radius: 50px;
     background:linear-gradient(to right, #24CCAA, #A2DB95);
-
 }
 
 .btn .text
@@ -126,5 +125,73 @@ ul li a:visited
 
 footer
 {
-    /* height:50vh; */
+    width:100%;
+    height:35vh;
+    background: linear-gradient(to right, #639d25, #427768);
+
+}
+
+.foot-container .content-1
+{
+    width:100%;
+    height:30%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-bottom: 1px solid rgba(255,253,245,0.2);
+}   
+
+.content-container
+{
+    width:70%;
+    height:100%;
+    margin:0 auto;
+
+    /* background-color: #fff; */
+}
+
+.fa
+{
+    margin:0 10px;
+}
+
+.niantic
+{
+    margin:0 10px;
+}
+
+.pokemoncompany
+{
+    margin:0 10px;
+    padding:20px 0;
+}
+.nintendo
+{
+    margin:0 10px;
+    padding:10px 0;
+}
+
+.logos-1
+{
+    margin:0;
+    width:70%;
+}
+
+.logos-2
+{
+}
+
+.foot-container .content-2
+{
+    width:100%;
+    height:30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content-2 .textline-1
+{
+    list-style: none;
+    display: flex;
 }
