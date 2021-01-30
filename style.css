@@ -45,6 +45,7 @@ main
     list-style: none;
     padding:25px 0;
 }
+
 ul li
 {
     display: inline;
@@ -58,7 +59,32 @@ ul li a
 {
    text-decoration: none;
 }
+
 ul li a:visited
 {
     color:#44696C;
+}
+
+.update-note-container
+{
+    background-color: white;
+    width: 57.5%;
+    height:39%;
+    border-radius: 4px;
+}   
+.update-note-content
+{
+    padding:30px 30px;
+}
+
+.update-note-content .title
+{
+    font-size: 20px;
+}
+
+.title .ball
+{
+    width:10px;
+    height:10px;
+    background-color: gray;
 }
