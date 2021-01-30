@@ -1,0 +1,64 @@
+*
+{
+    padding:0;
+    margin: 0;
+}
+
+body
+{
+    height:100vh;
+    background: url(https://pokemongolive.com/img/global/bg.jpg) no-repeat center fixed;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    /* min-height: 100vh; */
+    font-family: "Lato",sans-serif;
+}
+
+main
+{
+    height:80%;
+    background-color: grey;
+    margin:0 auto;
+    width:100vw;
+
+    overflow-x: hidden;
+}
+
+.main-container
+{
+   height:100%;
+   width: 70%;
+   margin: 0 auto;
+}
+
+.menu-bar
+{
+    display: flex;
+    justify-content: space-between;
+    padding:20px;
+}
+
+.menu-bar ul
+{
+    list-style: none;
+    padding:25px 0;
+}
+ul li
+{
+    display: inline;
+    margin:10px;
+    font-weight: 700;
+    font-size: 15px;
+    color:#44696C;
+}
+
+ul li a
+{
+   text-decoration: none;
+}
+ul li a:visited
+{
+    color:#44696C;
+}
