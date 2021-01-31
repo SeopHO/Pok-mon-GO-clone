@@ -57,6 +57,7 @@ main
 .menu-bar ul li a
 {
    text-decoration: none;
+   color:#44696C;
 }
 
 ul li a:visited
@@ -71,7 +72,13 @@ ul li a:visited
     height:39%;
     border-radius: 4px;
     opacity: 0.95;
-}   
+}
+
+.note-container .content-container
+{
+    width:100%;
+    height:100%;
+}
 
 .store
 {
@@ -104,6 +111,7 @@ ul li a:visited
     height:7%;
 }
 
+
 .trailer-container .btn
 {
     margin:0 auto;
@@ -118,6 +126,7 @@ ul li a:visited
     width:100%;
     height:100%;
     display: flex;
+    font-size: 16.5px;
     justify-content: center;
     align-items: center;
     color:#ffff;
@@ -139,6 +148,7 @@ footer
     justify-content: space-around;
     align-items: center;
     border-bottom: 1px solid rgba(255,253,245,0.2);
+    margin-bottom:10px;
 }   
 
 .content-container
@@ -146,8 +156,6 @@ footer
     width:70%;
     height:100%;
     margin:0 auto;
-
-    /* background-color: #fff; */
 }
 
 .fa
@@ -186,6 +194,7 @@ footer
     width:100%;
     height:30%;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
 }
@@ -194,4 +203,61 @@ footer
 {
     list-style: none;
     display: flex;
+    margin-bottom:16px;
+
+}
+
+.content-2 .textline-1 a
+{
+    color:#fff;
+    text-decoration: none;
+    font-size: 12px;
+
+}
+
+.content-2 .textline-1 a:after
+{
+    content:'│';
+    margin:0px 15px;
+}
+
+.content-2 .textline-1 .last:after
+{
+    content:' ';
+}
+
+.textline-2
+{
+    margin-bottom:16px;
+}
+
+.content-2 .textline-2 .text
+{
+    font-size: 12px;
+    color:#ffff;
+}
+
+.content-2 .textline-3 .text2
+{
+    font-size: 12px; 
+    color:#ffff;
+}
+
+.paragraph
+{
+    display: flex;
+    width:75%;
+    margin:0 auto;
+}
+
+.paragraph .date
+{
+    font-size:15px;
+    margin-right:50px;
+}
+
+.paragraph .event
+{
+    font-size:14px; 
+    width:60%;
 }
